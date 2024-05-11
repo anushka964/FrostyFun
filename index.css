@@ -1,0 +1,51 @@
+/* Example styles for banner */
+.banner {
+  margin-top: -70px;
+  display: flex; /* Display inline */
+  background-color: #114232;
+  padding: 20px;
+  height: 70px;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #FCDC2A;
+margin-left: 700px;
+font-family: 'Kalam';font-size: 40px;
+font-weight: bold;
+text-shadow: 1px 1px 5px #F7F6BB;
+}
+.front-image {
+  background-image: url("https://images7.alphacoders.com/979/979765.jpg");
+  background-color: rgba(204, 204, 204, 0.5);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.front-text{
+  margin-left: 430px;
+  padding-top: 200px;
+  margin-right: 50px;
+  padding-right: 10px;
+  text-align: center; 
+}
+#tagline{
+  font-family: 'Kalam';font-size: 70px;
+  background-color: rgba(247, 246, 187, 0.5);
+  font-weight: bolder;
+  color:#114232;
+  margin-right:50px;
+  width: fit-content;
+}
+#Explore{
+ margin-left: -400px;
+ background-color: transparent;
+ border: 2px solid #114232; 
+ color: #114232;
+ padding: 10px 20px;
+ font-size: 1.2rem; 
+ border-radius: 5px;
+ font-weight: bold;
+}

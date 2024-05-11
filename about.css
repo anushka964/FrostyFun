@@ -1,0 +1,46 @@
+
+body{
+    background-color: #F7F6BB;
+}
+.banner {
+    background-color: #F5D547; /* Soft yellow background */
+    color: #8B0000; /* Dark red text color */
+    text-align: center;
+    padding: 20px;
+}
+.banner2 {
+    margin-top: -70px;
+    display: flex; /* Display inline */
+    background-color: #114232;
+    padding: 20px;
+    height: 80px;
+  }
+  .banner2 h1 {
+   padding-bottom: 5px;
+    color: #FCDC2A;
+  margin-left: 700px;
+  font-family: 'Kalam';font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #F7F6BB;
+
+  }
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  

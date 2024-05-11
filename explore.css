@@ -1,0 +1,153 @@
+body, html {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #F7F6BB;
+}
+
+.banner {
+    background-color: #F5D547; /* Soft yellow background */
+    color: #8B0000; /* Dark red text color */
+    text-align: center;
+    padding: 20px;
+}
+.banner2 {
+    margin-top: -70px;
+    display: flex; /* Display inline */
+    background-color: #114232;
+    padding: 20px;
+    height: 90px;
+    text-align: center;
+  }
+  
+  .banner2 h1 {
+    color: #FCDC2A;
+  margin-left: 700px;
+  font-family: 'Kalam';font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px #F7F6BB;
+  }
+
+h1 {
+    padding-top: 20px;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-family: 'Coiny';font-size: 36px;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Caudex';font-size: 22px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+.feature span {
+    color: red;
+    margin-right: 10px;
+    font-size: 24px;
+}
+@keyframes popup {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.feature .bi {
+    animation: popup 4s infinite;
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.banner {
+    animation: slideUp 1s ease-out;
+}
+.product .card{
+    margin-left: 20px;
+    margin-left: -50px;
+    height: 500px;
+    margin-bottom: 500px;
+  
+}
+
+.card-img-top{
+    background-color: #F7F6BB;
+}
+.card-body{
+    background-color: #F7F6BB;
+}
+#choco{
+    background-color: #FFE0B5;
+}
+.product .card {
+    transition: transform 0.3s ease; /* Add transition for smooth scaling */
+  }
+  
+  .product .card:hover {
+    transform: scale(1.1); /* Scale the card to 110% on hover */
+  }
+  .product {
+    text-align: center; /* Center-align all content within the .product container */
+}
+
+.product h1 {
+    font-family: 'Bungee Spice';
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 0 auto; /* Center-align horizontally */
+}
+
+.product h2 {
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px red; 
+    margin: 0 auto; /* Center-align horizontally */
+}
+
+.product h2:hover {
+    font-size: 40px;
+    color: rgb(18, 14, 227);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px cyan;
+    margin: 0 auto; /* Center-align horizontally */
+}
+
+
+.product p{
+    font-family: 'Coiny';font-size: 25px;
+    color: #8b4513; 
+}
+.curve-text {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  
